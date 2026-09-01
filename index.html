@@ -3,109 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Datalem — Gestion de site internet & conseil informatique</title>
-<meta name="description" content="Datalem accompagne particuliers et PME dans la gestion de leur site internet et leurs besoins informatiques.">
+<title>Datalem — Bientôt en ligne</title>
+<meta name="description" content="Le site de Datalem, gestion de site internet et conseil informatique, arrive bientôt.">
+<meta name="robots" content="noindex">
 <link rel="icon" href="logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0c2033; --ink-soft:#54626c; --cream:#f2f6f4;
+    --accent-bright:#69be28; --gradient:linear-gradient(120deg,#002244 0%,#0d3a63 55%,#154d2e 100%);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+    font-family:'Inter', sans-serif;background:var(--gradient);color:#fff;
+    text-align:center;padding:24px;
+  }
+  .card{max-width:420px;}
+  .brand img{height:96px;width:auto;display:block;margin:0 auto 28px;}
+  h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.7rem;margin:0 0 12px;color:#fff;}
+  p{color:#cfe0d4;font-size:1rem;line-height:1.6;margin:0 0 8px;}
+</style>
 </head>
 <body>
-
-<header class="site-header">
-  <div class="container">
-    <a href="index.html" class="brand">
-      <img src="logo.svg" alt="Datalem" class="brand-mark">
-      <span class="brand-text">data<span>lem</span></span>
-    </a>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="index.html" class="active">Accueil</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <a href="contact.html" class="header-cta">Nous contacter</a>
-  </div>
-</header>
-
-<section class="hero">
-  <div class="container">
-    <p class="eyebrow">Gestion web &amp; conseil informatique</p>
-    <h1>Votre site internet et votre informatique, entre de bonnes mains.</h1>
-    <p>Datalem accompagne particuliers et PME : création et gestion de sites internet, conseil et support informatique, pour avancer sereinement dans le numérique.</p>
-    <div class="cta-row">
-      <a href="contact.html" class="btn btn-primary">Discutons de votre projet</a>
-      <a href="services.html" class="btn btn-outline">Voir nos services</a>
+  <div class="card">
+    <div class="brand">
+      <img src="logo.svg" alt="Datalem">
     </div>
+    <h1>Bientôt en ligne</h1>
+    <p>Le site de Datalem — gestion de site internet &amp; conseil informatique — est en cours de préparation.</p>
   </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Ce qu'on fait pour vous</span>
-      <h2>Un accompagnement simple et concret</h2>
-      <p>Que vous soyez un particulier ou une PME, on s'adapte à vos besoins réels — sans jargon inutile.</p>
-    </div>
-    <div class="grid-3">
-      <div class="card">
-        <div class="icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-        </div>
-        <h3>Gestion de site internet</h3>
-        <p>Création, mise à jour et maintenance de votre site — vous vous concentrez sur votre activité, on s'occupe du reste.</p>
-      </div>
-      <div class="card">
-        <div class="icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 1 5 5c0 2-1 3-2 4-1 1-1 2-1 3H10c0-1 0-2-1-3-1-1-2-2-2-4a5 5 0 0 1 5-5z"/><line x1="9" y1="18" x2="15" y2="18"/><line x1="10" y1="21" x2="14" y2="21"/></svg>
-        </div>
-        <h3>Conseil informatique</h3>
-        <p>Des recommandations claires pour vos outils, votre équipement et vos choix technologiques, adaptées à votre taille.</p>
-      </div>
-      <div class="card">
-        <div class="icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-        </div>
-        <h3>Support &amp; dépannage</h3>
-        <p>Un souci informatique ? Une intervention rapide, à distance ou sur place, pour repartir sans perdre de temps.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="alt">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Pour qui ?</span>
-      <h2>Particuliers comme professionnels</h2>
-    </div>
-    <div class="grid-2">
-      <div class="card">
-        <h3>Particuliers</h3>
-        <p>Dépannage, conseils d'achat, configuration de vos appareils et de votre réseau à la maison.</p>
-      </div>
-      <div class="card">
-        <h3>PME &amp; indépendants</h3>
-        <p>Site internet professionnel, outils numériques adaptés à votre activité, accompagnement dans la durée.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="cta-band">
-  <div class="container">
-    <h2>Un projet ou une question ?</h2>
-    <p>Parlons-en simplement, sans engagement.</p>
-    <a href="contact.html" class="btn btn-primary">Contacter Datalem</a>
-  </div>
-</section>
-
-<footer>
-  <div class="container">
-    <p><strong>Datalem</strong> — Gestion de site internet &amp; conseil informatique</p>
-  </div>
-</footer>
-
 </body>
 </html>
