@@ -35,11 +35,11 @@ a{color:var(--accent);}
 .main-nav a{text-decoration:none;font-size:15px;font-weight:500;color:var(--ink-soft);}
 .main-nav a.active,.main-nav a:hover{color:var(--accent);}
 .header-cta{
-  text-decoration:none;font-weight:600;font-size:14px;color:#fff;
-  background:var(--accent);border-radius:8px;padding:10px 20px;
+  text-decoration:none;font-weight:600;font-size:14px;color:#002244;
+  background:var(--accent-bright);border-radius:8px;padding:10px 20px;
   transition:background .2s ease;
 }
-.header-cta:hover{background:var(--accent-dark);}
+.header-cta:hover{background:#5aa322;}
 
 /* Hero */
 .hero{background:var(--gradient);color:#fff;padding:88px 0 76px;text-align:center;}
@@ -127,11 +127,11 @@ form.contact-form input:focus,
 form.contact-form textarea:focus{outline:none;border-color:var(--accent);}
 form.contact-form textarea{min-height:120px;resize:vertical;}
 form.contact-form button{
-  font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:1rem;color:#fff;
-  background:var(--accent);border:none;border-radius:8px;padding:12px 26px;
+  font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:1rem;color:#002244;
+  background:var(--accent-bright);border:none;border-radius:8px;padding:12px 26px;
   cursor:pointer;transition:background .2s ease;
 }
-form.contact-form button:hover{background:var(--accent-dark);}
+form.contact-form button:hover{background:#5aa322;}
 form.contact-form button:disabled{opacity:.6;cursor:default;}
 .form-note{margin-top:12px;font-size:.9rem;}
 .form-note.success{color:#1c8a4c;}
