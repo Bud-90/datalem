@@ -1,13 +1,14 @@
 :root{
-  --ink:#101826;
-  --ink-soft:#4a5568;
+  --ink:#0c2033;
+  --ink-soft:#54626c;
   --paper:#ffffff;
-  --cream:#f5f7fb;
-  --line:#e2e6ee;
-  --accent:#2f5fed;
-  --accent-dark:#2347b8;
-  --amber:#e88a2c;
-  --gradient:linear-gradient(120deg,#101826 0%,#1c2b4a 45%,#2f5fed 100%);
+  --cream:#f2f6f4;
+  --line:#dde4e1;
+  --accent:#2f6e17;
+  --accent-dark:#1f4d0f;
+  --accent-bright:#69be28;
+  --amber:#69be28;
+  --gradient:linear-gradient(120deg,#002244 0%,#0d3a63 55%,#154d2e 100%);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
@@ -44,17 +45,17 @@ a{color:var(--accent);}
 .hero{background:var(--gradient);color:#fff;padding:88px 0 76px;text-align:center;}
 .hero .eyebrow{
   text-transform:uppercase;letter-spacing:0.12em;font-size:13px;font-weight:600;
-  color:#a9bdfb;margin-bottom:18px;
+  color:#a8d99a;margin-bottom:18px;
 }
 .hero h1{font-size:clamp(2.1rem,5vw,3.1rem);max-width:760px;margin:0 auto;color:#fff;line-height:1.2;}
-.hero p{margin-top:20px;font-size:1.1rem;max-width:600px;margin-left:auto;margin-right:auto;color:#dbe3fb;}
+.hero p{margin-top:20px;font-size:1.1rem;max-width:600px;margin-left:auto;margin-right:auto;color:#cfe0d4;}
 .hero .cta-row{margin-top:34px;display:flex;gap:16px;justify-content:center;flex-wrap:wrap;}
 .btn{
   display:inline-block;text-decoration:none;font-weight:600;font-size:15px;
   border-radius:8px;padding:13px 28px;transition:all .2s ease;
 }
-.btn-primary{background:var(--amber);color:var(--ink);}
-.btn-primary:hover{background:#d67d20;}
+.btn-primary{background:var(--accent-bright);color:#002244;}
+.btn-primary:hover{background:#5aa322;}
 .btn-outline{border:1.5px solid rgba(255,255,255,0.5);color:#fff;}
 .btn-outline:hover{background:rgba(255,255,255,0.12);border-color:#fff;}
 
@@ -139,7 +140,7 @@ form.contact-form button:disabled{opacity:.6;cursor:default;}
 /* CTA band */
 .cta-band{background:var(--gradient);color:#fff;text-align:center;padding:64px 0;}
 .cta-band h2{color:#fff;font-size:clamp(1.5rem,3.5vw,2rem);}
-.cta-band p{margin-top:12px;color:#dbe3fb;}
+.cta-band p{margin-top:12px;color:#cfe0d4;}
 .cta-band .btn{margin-top:26px;}
 
 footer{padding:36px 0;text-align:center;color:var(--ink-soft);font-size:.88rem;border-top:1px solid var(--line);}
