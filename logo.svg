@@ -7,9 +7,9 @@
   </defs>
   <polygon points="92,48 70,86.1 26,86.1 4,48 26,9.9 70,9.9" fill="url(#g)"/>
   <g transform="translate(44,48) scale(0.85) translate(-44,-48)">
-    <path d="M30 26 v44 a1 1 0 0 0 1 1 h8 c12 0 19 -8.5 19 -23 s-7 -23 -19 -23 h-8 a1 1 0 0 0 -1 1z M38 33 h1 c7.7 0 11.7 5.3 11.7 15 s-4 15 -11.7 15 h-1 z" fill="#fff"/>
+    <path d="M30 26 v44 a1 1 0 0 0 1 1 h8 c12 0 19 -8.5 19 -23 s-7 -23 -19 -23 h-8 a1 1 0 0 0 -1 1z M38 33 h1 c7.7 0 11.7 5.3 11.7 15 s-4 15 -11.7 15 h-1 z" fill="#d8724f"/>
   </g>
-  <path d="M62 31 Q74 48 62 65" stroke="#d8724f" stroke-width="0.9" fill="none" opacity=".9"/>
+  <path d="M62 31 Q74 48 62 65" stroke="#69be28" stroke-width="0.9" fill="none" opacity=".9"/>
   <circle cx="62" cy="31" r="2.2" fill="#69be28"/>
   <circle cx="68" cy="48" r="2.2" fill="#69be28"/>
   <circle cx="62" cy="65" r="2.2" fill="#69be28"/>
