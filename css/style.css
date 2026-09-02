@@ -57,8 +57,8 @@ a{color:var(--accent);}
 }
 .btn-primary{background:var(--accent-bright);color:#002244;}
 .btn-primary:hover{background:#5aa322;}
-.btn-outline{border:1.5px solid rgba(255,255,255,0.5);color:#fff;}
-.btn-outline:hover{background:rgba(255,255,255,0.12);border-color:#fff;}
+.btn-outline{border:1.5px solid var(--orange);color:#fff;}
+.btn-outline:hover{background:rgba(216,114,79,0.18);border-color:var(--orange);}
 
 /* Page header (inner pages) */
 .page-header{background:var(--cream);padding:56px 0 48px;text-align:center;border-bottom:1px solid var(--line);}
