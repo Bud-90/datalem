@@ -32,6 +32,7 @@ a{color:var(--accent);}
 .brand-mark{height:34px;width:34px;display:block;}
 .brand-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--ink);letter-spacing:-0.01em;}
 .brand-text span{color:var(--accent);}
+.brand-text .brand-d{color:var(--orange);}
 .main-nav ul{list-style:none;display:flex;gap:32px;}
 .main-nav a{text-decoration:none;font-size:15px;font-weight:500;color:var(--ink-soft);}
 .main-nav a.active,.main-nav a:hover{color:var(--accent);}
