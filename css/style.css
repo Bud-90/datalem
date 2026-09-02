@@ -8,6 +8,7 @@
   --accent-dark:#1f4d0f;
   --accent-bright:#69be28;
   --amber:#69be28;
+  --orange:#d8724f;
   --gradient:linear-gradient(120deg,#002244 0%,#0d3a63 55%,#154d2e 100%);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
@@ -83,7 +84,7 @@ section.alt{background:var(--cream);}
 .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;}
 
 .card{
-  background:var(--paper);border:1px solid var(--line);border-radius:12px;
+  background:var(--paper);border:1px solid var(--orange);border-radius:12px;
   padding:32px 28px;
 }
 .card .icon{
@@ -96,7 +97,7 @@ section.alt{background:var(--cream);}
 /* Contact cards */
 .contact-grid{display:flex;flex-wrap:wrap;gap:16px;margin-top:32px;justify-content:center;}
 .contact-item{
-  background:var(--paper);border:1px solid var(--line);border-radius:10px;
+  background:var(--paper);border:1px solid var(--orange);border-radius:10px;
   padding:20px 26px;flex:1 1 220px;text-decoration:none;color:var(--ink);
   transition:border-color .2s ease,transform .2s ease;text-align:center;
 }
@@ -110,7 +111,7 @@ section.alt{background:var(--cream);}
 .form-transition{margin:32px 0 8px;color:var(--ink-soft);font-size:.92rem;text-align:center;}
 
 form.contact-form{
-  margin:16px auto 0;background:var(--paper);border:1px solid var(--line);border-radius:12px;
+  margin:16px auto 0;background:var(--paper);border:1px solid var(--orange);border-radius:12px;
   padding:28px 30px;max-width:520px;
 }
 form.contact-form .field{margin-bottom:16px;}
