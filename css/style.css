@@ -29,8 +29,8 @@ a{color:var(--accent);}
 .site-header{padding:20px 0;border-bottom:1px solid var(--line);background:var(--paper);}
 .site-header .container{display:flex;align-items:center;justify-content:space-between;}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;}
-.brand-mark{height:42px;width:42px;display:block;}
-.brand-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px;color:var(--ink);letter-spacing:-0.01em;}
+.brand-mark{height:48px;width:48px;display:block;}
+.brand-text{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:24px;color:var(--ink);letter-spacing:-0.01em;}
 .brand-text span{color:var(--accent);}
 .brand-text .brand-d{color:var(--orange);}
 .main-nav ul{list-style:none;display:flex;gap:32px;}
